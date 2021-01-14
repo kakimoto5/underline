@@ -1,0 +1,289 @@
+body {
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+  color: #333;
+}
+
+header {
+  max-width: 80%;
+  max-width: 1000px;
+	height: 270px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* ヘッダーロゴ */
+header h1 {
+  position: absolute;
+	top: 50%;
+}
+header h1 img {
+	width: 275px;
+  height: 35px;
+}
+/* snsボタン */
+header ul {
+  position: absolute;
+	top: 50%;
+	right: 0%;
+	margin: 0;
+	padding-right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+header ul a img {
+  width: 25px;
+  height: 25px;
+  padding: 0 7px 0 7px;
+}
+
+/* ヘッダーメニュー */
+header nav {
+  position: absolute;
+  bottom: 50px;
+  right: 0%;
+  margin-bottom: 0;
+}
+header nav ul {
+  width: 80%;
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+}
+nav ul li {
+	margin: 0 -20px 0 60px;
+}
+nav ul li a {
+	display: inline;
+	font-size: 14px;
+	font-weight: 400;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+/* 画像 */
+.imgMain {
+  max-width: 100%;
+  max-width: 1000px;
+  height: 480px;
+  display: flex;
+  margin: 0 auto;
+}
+.mainphoto img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center;
+}
+
+/* サービス */
+#sevice {
+  height: 670px;
+  width: 930;
+}
+
+.seviceContainer {
+  height: 100px;
+  display: flex;
+}
+
+.ttls {
+  margin: 0 auto;
+  margin-bottom: 65px;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+.menuContainer {
+  height: 560px;
+  margin: 0 auto;
+  max-width: 80%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.direction {
+  height: 560px;
+  width: 280px;
+  margin:0 auto;
+  float: left;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+p ,text1 {
+  font-size: 14px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+section .icon img {
+  width: 98px;
+  height: 102px;
+  margin-bottom: 16px;
+}
+
+/* Works */
+.photoContainer {
+  height: 1650pxx;
+  margin: 0 auto;
+  max-width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+.photoContainer a img {
+  max-width: 280px;
+  max-height: 260px;
+  margin: 0 21px 61px 21px;
+  border: solid thin #d6d6d6;
+}
+
+/* blog */
+.blogworks {
+  height: 1180px;
+  max-width: 80%;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+.blogContainer {
+  height: 105pxx;
+  margin: 0 auto;
+  max-width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.blogphoto {
+  height: 1065px;
+  max-width: 80%;
+  max-width: 1000px;
+}
+
+.blog1 {
+  height: 444px;
+  max-width: 80%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.blog1test {
+  width: 280px;
+  float: left;
+  margin: 0 30px 0 30px;
+}
+
+.blogphoto  a img {
+  width: 280px;
+  height: 260px;
+}
+
+.blogtext {
+  margin: 33px 0 0 0;
+  text-align: left;
+}
+
+.blogmore {
+  width: 63px;
+  height: 35px;
+  margin: 8px 12px;
+  vertical-align: middle;
+  font-weight: 400;
+  background-color: #eee;
+  float: right;
+  position: relative;
+}
+
+.blogmore a {
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: auto;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+/* フッター */
+
+.footercontenr {
+  height: 130px;
+  max-width: 80%;
+  max-width: 1000px;
+  /* background-color: pink; */
+  margin: 0 auto;
+  position: relative;
+}
+
+.footermenu {
+  height: 24px;
+  width: 316px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+}
+
+.footermenu a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin: 0 22px 0 22px;
+}
+
+.copyright {
+  max-width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#pageTop {
+  margin: 0 auto;
+  height: 52px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* $(function(){
+var topBtn=$('#pageTop');
+topBtn.hide();
+
+ 
+
+$(window).scroll(function(){
+  if($(this).scrollTop()>80){
+
+
+    topBtn.fadeIn();
+
+  }else{
+
+
+    topBtn.fadeOut();
+
+  }
+});
+
+ 
+
+
+topBtn.click(function(){
+  $('body,html').animate({
+  scrollTop: 0},500);
+  return false;
+
+});
+
+
+}); */
